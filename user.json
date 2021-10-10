@@ -1,0 +1,87 @@
+{
+  "status": {
+    "timestamp": "2021-10-10T14:21:22.870Z",
+    "error_code": 0,
+    "error_message": null,
+    "elapsed": 13,
+    "credit_count": 1,
+    "notice": null,
+    "total_count": 7188
+  },
+  "data": [
+    {
+      "id": 12580,
+      "name": "SUPERLAUNCH",
+      "symbol": "SLA",
+      "slug": "superlaunch",
+      "num_market_pairs": 1,
+      "date_added": "2021-10-10T10:44:10.000Z",
+      "tags": [],
+      "max_supply": 10000000,
+      "circulating_supply": 0,
+      "total_supply": 0,
+      "platform": {
+        "id": 1839,
+        "name": "Binance Smart Chain (BEP20)",
+        "symbol": "BNB",
+        "slug": "binance-coin",
+        "token_address": "0xC7E530C0366a6D2FE5716F0A836f25d60bbfD678"
+      },
+      "cmc_rank": 3316,
+      "last_updated": "2021-10-10T14:20:04.000Z",
+      "quote": {
+        "USD": {
+          "price": 0.16949229941476,
+          "volume_24h": 383953.89968648,
+          "percent_change_1h": 24.0854389,
+          "percent_change_24h": 0,
+          "percent_change_7d": 0,
+          "percent_change_30d": 0,
+          "percent_change_60d": 0,
+          "percent_change_90d": 0,
+          "market_cap": 0,
+          "market_cap_dominance": 0,
+          "fully_diluted_market_cap": 1694922.99,
+          "last_updated": "2021-10-10T14:20:04.000Z"
+        }
+      }
+    },
+    {
+      "id": 12579,
+      "name": "Polkasocial Network",
+      "symbol": "PSN",
+      "slug": "polkasocial",
+      "num_market_pairs": 1,
+      "date_added": "2021-10-10T10:33:46.000Z",
+      "tags": [],
+      "max_supply": 275000000,
+      "circulating_supply": 0,
+      "total_supply": 0,
+      "platform": {
+        "id": 1839,
+        "name": "Binance Smart Chain (BEP20)",
+        "symbol": "BNB",
+        "slug": "binance-coin",
+        "token_address": "0xadb005659b1b99cbecc8b706750938cad941290d"
+      },
+      "cmc_rank": 3084,
+      "last_updated": "2021-10-10T14:20:04.000Z",
+      "quote": {
+        "USD": {
+          "price": 0.3657478741583,
+          "volume_24h": 818593.07532084,
+          "percent_change_1h": -13.33087305,
+          "percent_change_24h": 0,
+          "percent_change_7d": 0,
+          "percent_change_30d": 0,
+          "percent_change_60d": 0,
+          "percent_change_90d": 0,
+          "market_cap": 0,
+          "market_cap_dominance": 0.0043,
+          "fully_diluted_market_cap": 100580665.39,
+          "last_updated": "2021-10-10T14:20:04.000Z"
+        }
+      }
+    }
+  ]
+}
