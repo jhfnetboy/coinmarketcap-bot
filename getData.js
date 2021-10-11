@@ -2,9 +2,13 @@
 
 const rp = require('request-promise');
 const fs = require('fs');
-const apiKey = 'd596596e-ee72-45a3-ae0d-f14b779d7d5b' // product env key
-const apiTestKey = 'b54bcf4d-1bca-4e8e-9a24-22ff2c3d462c' // for test
+// const apiTestKey = 'b54bcf4d-1bca-4e8e-9a24-22ff2c3d462c' // for test
 const xlsx = require('node-xlsx');
+
+require('dotenv').config();
+const API_KEY = process.env.COINMARKET_API_KEY;
+// const CONTRACT_ADDRESS = process.env.CONTRACT_ADDRESS;
+
 const requestOptions = {
   method: 'GET',
   uri: '',
@@ -16,7 +20,7 @@ const requestOptions = {
     'sort_dir': 'desc'
   },
   headers: {
-    'X-CMC_PRO_API_KEY': apiKey
+    'X-CMC_PRO_API_KEY': API_KEY
   },
   json: true,
   gzip: true
