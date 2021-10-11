@@ -87,7 +87,8 @@ function writeExcel(d){
         excelData.push(addInfo);
       }
       var buffer = xlsx.build(excelData);
-      fs.writeFile('./data.xls', buffer, function (err) {
+        var timestrf = myDate.getFullYear()+"-"+(myDate.getMonth()+1)+"-"+myDate.getDate()+"-"+myDate.getHours()+"-"+myDate.getMinutes()+"-"+myDate.getSeconds(); 
+      fs.writeFile('./data'+timestrf+'.xls', buffer, function (err) {
           if (err){
             throw err;
           }
